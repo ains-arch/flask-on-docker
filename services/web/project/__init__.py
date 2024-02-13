@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.config.from_object("project.config.Config")
 db = SQLAlchemy(app)
 
+
 class User(db.Model):
     __tablename__ = "users"
 
@@ -14,6 +15,7 @@ class User(db.Model):
 
     def __init__(self, email):
         self.email = email
+
 
 @app.route("/")
 def hello_world():
