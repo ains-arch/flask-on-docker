@@ -50,4 +50,4 @@ POSTGRES_DB=hello_flask_prod
 $ docker-compose -f docker-compose.prod.yml up -d --build
 ```
 
-Test it out at [http://localhost:1447](http://localhost:1447).
+Test it out at [http://localhost:1447](http://localhost:1447)!
