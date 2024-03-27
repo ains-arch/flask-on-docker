@@ -20,7 +20,7 @@ Build the images and run the containers:
 $ docker-compose up -d --build
 ```
 
-Test it out at [http://localhost:1361](http://localhost:1361)!
+Test it out at [http://localhost:1361](http://localhost:1361).
 
 ### Production
 
