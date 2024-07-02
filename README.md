@@ -17,7 +17,7 @@ and supports serving both static and user-uploaded media files via Nginx.
 Build the images and run the containers:
 
 ```sh
-$ docker-compose up -d --build
+$ docker compose up -d --build
 ```
 
 Test it out at [http://localhost:1361](http://localhost:1361).
@@ -47,7 +47,9 @@ POSTGRES_DB=hello_flask_prod
 3. Build the images and run the containers:
 
 ```sh
-$ docker-compose -f docker-compose.prod.yml up -d --build
+$ docker compose -f docker-compose.prod.yml up -d --build
 ```
 
 Test it out at [http://localhost:1447](http://localhost:1447)!
+
+If it doesn't seem to be coming up, try bringing down the other container first.
